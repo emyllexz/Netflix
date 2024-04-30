@@ -1,0 +1,111 @@
+#logo{
+    width: 150px;
+    padding-right: 30px;
+}
+body{
+    background-color: #1c1c1c;
+    font-family: Arial;
+    margin:0%
+}
+header{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+}
+nav{
+    width: 100%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+a:hover{
+    color: darkgrey;
+}
+.rapunzel{
+    background: linear-gradient(to right, rgb(0,0,0,0.9),rgb(0,0,0,0.1)), url(../img/Enrolados-Disney-ReJ.jpg);
+    height: 100%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.logoenrolados{
+    width: 30%;
+    padding-bottom: 30px;
+}
+.dama{
+    background: linear-gradient(to right, rgb(0,0,0,0.9),rgb(0,0,0,0.1)), url(../img/0_NFGUt0O1v7BzNKZr.jpg);
+    height: 100%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.logodama{
+    width: 25%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.croods{
+    background: linear-gradient(to right, rgb(0,0,0,0.9),rgb(0,0,0,0.1)), url(../img/croods-950x534.jpg);
+    height: 100%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.logocroods{
+    width: 30%;
+    padding-bottom: 40px;
+}
+.zootopia{
+    background: linear-gradient(to right, rgb(0,0,0,0.9),rgb(0,0,0,0.1)), url(../img/zootopia-temperatura-maxima-foto-reproducao-tvpop-1024x535.jpg);
+    height: 100%;
+    background-size: cover;
+    padding-left: 20px;
+}
+.logozoo{
+    width: 30%;
+    padding-bottom: 30px;
+}
+#Sinopse{
+    color:aliceblue;
+    width: 35%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border: 10px;
+    border-radius: 5px;
+    border:none;
+    margin-right: 10px;
+    cursor:pointer;
+}
+#btn-minha-lista{
+    background-color:#5a5858;
+    color: aliceblue;
+}
+#btn-minha-lista:hover{
+    background-color:rgb(50, 48, 48,0.5);
+    color: rgb(209, 209, 209,);
+}
+#reproduzir:hover{
+    background-color: rgba(231, 6, 51, 0.7);
+    color:aliceblue;
+}
+h1{
+    color: aliceblue;
+    padding-top: 40px;
+}
+#filme1{
+    width: 300px;
+}
+#filme2{
+    width: 288px;
+}
+#filme3{
+    width: 292px;
+}
+#filme4{
+    width: 298px;
+}

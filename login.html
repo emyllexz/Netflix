@@ -1,0 +1,64 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/netflix.img.preto.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Netflix</title>
+</head>
+    <body>
+    <header>
+        <img id="logo" src="img/download-removebg-preview (1).png" id="logo">
+    </header>
+    <main>
+        <form action="">
+            <div id="Entrar">
+                <h1>Entrar</h1>
+            </div>
+            <div id="caixa-de-texto">
+                <input class="login-input" placeholder="Email ou número de telefone" type="text" id="login"><br>
+                <p id="alerta" hidden> ⚠ Este campo não pode estar vazio</p>
+
+                <input class="login-input"  placeholder="Senha" type="password" name="senha" id="senha"><br>
+                <input type="button" onclick="entrar()" value="ENTRAR" id="btn">
+                
+                <div id="help">
+                <div id="lembrar">
+                    <input type="checkbox" name="Lembrar-se de mim">
+                    <label for="Lembrar-se">Lembrar-se de mim</label>
+                </div>
+                <a href="#">Precisa de ajuda?</a>
+            </div>
+            </div>
+        </form>
+    </main>
+    </body>
+    <script>
+
+        var login = document.getElementById('login');
+        var senha = document.getElementById('senha');
+        var alerta = document.getElementById('alerta')
+
+        var usuario_login = 'sesimoreno'
+        var usuario_senha = '1234'
+
+        login.addEventListener('input', ()=>{
+        if(login!= ''){
+            alerta.setAttribute('hidden','')
+            login.style.marginBottom = '10px'  
+        }
+        })
+
+        login.addEventListener
+
+        function entrar(){
+            if(login.value == ''){
+                alerta.removeAttribute('hidden')
+                login.style.marginBottom = '0%'
+            }else{
+                alert('bem vindo')
+            }
+        }
+
+    </script>
+</html>
